@@ -23,6 +23,8 @@ function addElement(parentId, elementTag, quadrant, src, elementId) {
 }
 
 function beFruitfulAndMultiply(element) {
+  var audio = document.getElementById("audio");
+  audio.play();
   var tempElement = element;
   var parentNodeId = tempElement.parentNode.id;
   console.log(parentNodeId);
