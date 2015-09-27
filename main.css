@@ -13,3 +13,35 @@ video#bgvid {
   background: no-repeat;
   background-size: cover;
 }
+
+img#cena1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 30%;
+  bottom: 30%;
+}
+
+img#cena2 {
+  position: absolute;
+  top: 0;
+  left: 70%;
+  right: 0;
+  bottom: 30%;
+}
+
+img#cena3 {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 30%;
+  bottom: 0;
+}
+
+img#cena4 {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  right: 0;
+  bottom: 0;
+}
